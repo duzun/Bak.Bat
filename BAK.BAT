@@ -3,10 +3,13 @@ rem ----------------------------------------------------------------------------
 rem - ro: Un script pentru crearea si dublarea copiilor de rezerva ale unui proiect.-
 rem - en: A script for creating and doubling of  backup copies of a project.        -
 rem ---------------------------------------------------------------------------------
-rem @Ver 6
+rem @Ver 6.1
 rem @Date:   15.12.2010, 21:05
 rem @Author: Dumitru Uzun (DUzun.Me)
+REM @Repo:   https://github.com/duzun/Bak.Bat
 rem @Web:    https://duzun.me
+rem --------------------------------------------------------------------------
+REM @Dependencies: UPX.exe, RAR.exe
 rem --------------------------------------------------------------------------
 if     '%1'=='/goto' goto %2
 if not '%1'=='/goto' goto smain
@@ -364,4 +367,4 @@ rem exit
 rem --------------------------------------------------------------------------
 :e
 REM Updated: 03.03.2011, 13:10:31,03
-REM Updated: Thu 01/15/2015, 13:00:44.04 
+REM Updated: Thu 01/15/2015, 13:53:56.94 
