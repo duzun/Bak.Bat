@@ -3,7 +3,7 @@ Bak.Bat - Backup your project
 
 A script for creating and doubling of backup copies of a project.
 
-I've created it before I started using SVN, to create backup copies
+This was my version control script before I started using SVN, to create backup copies
 of my projects on daily basis and also to automatically copy project
 files to and from my memory stick, while moving from university
 to work and from work to home (Dropbox didn't exist back then :-)
